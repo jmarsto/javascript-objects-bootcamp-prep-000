@@ -3,8 +3,8 @@ var playlist = {
   Beyonce:  'halo'
 }
 
-function updatePlaylist(obj, artist, song) { 
-  obj['artist'] = song ;
+function updatePlaylist(obj, key, value) { 
+  obj[key] = value ;
   return playlist
 }
 
