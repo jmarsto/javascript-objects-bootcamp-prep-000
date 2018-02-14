@@ -1,10 +1,10 @@
 
-var playlist = {
+const playlist = {
   Beyonce:  'halo'
 }
 
-function updatePlaylist(object, artist, song) { 
-  object['artist'] = song ;
+function updatePlaylist(obj, artist, song) { 
+  obj['artist'] = song ;
   return playlist
 }
 
