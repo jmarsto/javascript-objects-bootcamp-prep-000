@@ -1,5 +1,5 @@
 
-const playlist = {
+var playlist = {
   Beyonce:  'halo'
 }
 
